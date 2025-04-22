@@ -63,3 +63,5 @@ getgenv().LTGM_settings = {
     ["LOWTEXTURE"] = true -- Reduce graphic quality for better performance
 }
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LT-GAMING/kaitun/refs/heads/main/kaitun%20up"))()
