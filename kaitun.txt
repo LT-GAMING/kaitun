@@ -1,6 +1,6 @@
 
 -- Max level, godhuman, cdk, sgt
-getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
+getgenv().Shutdown = true in level 2650
 getgenv().Configs = {
     ["Team"] = "Marines",
     ["FPS Boost"] = {
@@ -53,4 +53,4 @@ getgenv().Configs = {
     ["Lock Fragment"] = 30000,
     ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
 }
-repeat task.wait() pcall(function()  until getgenv().Check_Execute
+repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/LT-GAMING/kaitun/refs/heads/main/kaitun.txt")) end) until getgenv().Check_Execute
