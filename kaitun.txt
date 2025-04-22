@@ -1,5 +1,6 @@
 -- Max level, godhuman, cdk, sgt
-getgenv().Shutdown = false
+getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
+script_key = "LT GAMING"
 getgenv().Configs = {
     ["Team"] = "Marines",
     ["FPS Boost"] = {
@@ -33,7 +34,7 @@ getgenv().Configs = {
     },
     ["Trackstat"] = {
         ["Enable"] = false,
-         ["Key"] = "LT GAMING" 
+         ["Key"] = false
         ["Device"] = "test" -- u can put any name here
     },
     ["Auto Spawn rip_indra"] = true,
@@ -52,4 +53,4 @@ getgenv().Configs = {
     ["Lock Fragment"] = 30000,
     ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LT-GAMING/kaitun/refs/heads/main/kaitun.txt")) ()
+repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/LT-GAMING/kaitun/refs/heads/main/kaitun.txt"))() end) until getgenv().Check_Execute
